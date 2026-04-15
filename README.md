@@ -6,7 +6,7 @@
 
 ## My Tech Stack
 
-C# . HTML . CSS . JavaScript . VBA
+C# . HTML . JavaScript . VBA . Powershell
 
 ## My Favorite Tools
 
