@@ -7,6 +7,15 @@
 
 @media only screen and (min-width: 992px) {
     .container {
-        grid-template-rows: 5% 25% 15% 55%
+        grid-template-rows: 5% 25% 15% 55%;
+        gap: 2rem;
     }
 }
+
+@media only screen and (min-width: 700px ){
+    .container{
+        grid-template-rows: 8% 30% 17% 45%;
+        gap: 2rem;
+    }
+}
+
