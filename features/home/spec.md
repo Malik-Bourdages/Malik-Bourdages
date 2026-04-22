@@ -16,5 +16,5 @@ implement `index.html`
 
 ## Deliverables
 
-- 
-- 
+- the work should be done when the portfolio works both on PC and mobile devices
+- when it will have been fully modified using css

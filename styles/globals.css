@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 30% 15% 55%;
+    gap: 2rem;
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        grid-template-rows: 5% 25% 15% 55%
+    }
+}
