@@ -4,23 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="globals" href="./styles/globals.css">
-    <link rel="index" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/globals.css">
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
     <main>
-        <container>
-            <p> Home | Projects </p>
-        </container>
-        <container>
-            <p>hello this is an image area</p>
-        </container>
-        <container>
-            <p> Hello, I'm Malik Bourdages </p>
-        </container>
-        <container>
-            <p>hello this is a future aspirations area</p>
-        </container>
+        <section>
+            <img class="image" src="./assets/images/Myself.jpg" 
+                srcset="./assets/images/Myself.jpg 781w,
+                ./features/assets/myself 800px.jpg 800w,
+                ./features/assets/myself 1080 px.jpg 1080w,
+                ./features/assets/myself 1440px.jpg 1440w "
+                sizes="30vw"
+                alt="Me Myself and I"
+            >
+        </section>
+        <section>
+            <p>Hello, I'm Malik Bourdages</p>
+        </section>
+        <section>
+            <p>My future aspirations are </p>
+            <ul>
+                <li> To become a video game developper</li>
+                <li> To one day work at a major studio such as a nintendo</li>
+                <li> To make my own game independently on my own time</li>
+            </ul>
+        </section>
+        <section>
+            <p>Please view some of my past projects</p>
+            
+        </section>
     </main>
 </body>
 </html>
